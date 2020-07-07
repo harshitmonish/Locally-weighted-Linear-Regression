@@ -68,8 +68,8 @@ def plot_graph(xtrain, ytrain, xtest, ytest, typeG):
 
 def main():
     #firstly read the data from the  file
-    X_in = pd.read_csv("./lin_log/weightedX.csv", header=None).values
-    Y_in = pd.read_csv("./lin_log/weightedY.csv", header=None).values
+    X_in = pd.read_csv("./weightedX.csv", header=None).values
+    Y_in = pd.read_csv("./weightedY.csv", header=None).values
     #normalize the data
     X = normalize(X_in)
     testX = np.linspace(-2, 2, num=100)
