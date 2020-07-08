@@ -14,3 +14,9 @@ The files "linearX.csv"and "linearY.csv"contain the acidity of the wine (x(i)'s)
 * Will be implementing locally weighted linear regression on this dataset using the weighted normal equations written above to learn the relation-ship between x(i)'s and y(i)'s.
 * When evaluating h_theta at a query point x, we use weights: w(i) = exp(- ((x - (x(i)))^2)/2*tau^2) where tau is the bandwidth parameter
 * Will plot the data on a two-dimensional graph and plot the hypothesis function learned by the Weighted and Unweighted Linear Regression algorithm.
+
+
+# Author 
+ * [Harshit Monish](https://github.com/harshitmonish)
+ 
+## Course Project Under [Prof. Parag Singla](http://www.cse.iitd.ernet.in/~parags/)
